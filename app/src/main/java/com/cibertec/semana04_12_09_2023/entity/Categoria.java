@@ -3,7 +3,8 @@ package com.cibertec.semana04_12_09_2023.entity;
 public class Categoria {
 
     private int idCategoria;
-    private String nombre;
+    private String descripcion;
+    private int tipo;
 
     public int getIdCategoria() {
         return idCategoria;
@@ -13,12 +14,20 @@ public class Categoria {
         this.idCategoria = idCategoria;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public int getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(int tipo) {
+        this.tipo = tipo;
     }
 }
 

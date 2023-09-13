@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
                 android:padding="3dp"
-                android:text="Registro Editorial"
+                android:text="Registro Editorial - Jacinto"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:textStyle="bold" />

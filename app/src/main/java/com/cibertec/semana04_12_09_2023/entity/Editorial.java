@@ -11,6 +11,8 @@ public class Editorial {
     private int estado;
     private Pais pais;
 
+    private Categoria categoria;
+
     public int getIdEditorial() {
         return idEditorial;
     }
@@ -73,5 +75,13 @@ public class Editorial {
 
     public void setPais(Pais pais) {
         this.pais = pais;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 }
